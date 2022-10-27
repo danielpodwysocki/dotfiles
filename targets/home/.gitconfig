@@ -1,0 +1,10 @@
+[alias]
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+
+[user]
+	name = Daniel Podwysocki
+	email = 48068081+danielpodwysocki@users.noreply.github.com 
+
+[init]
+	templatedir = ~/.git-templates
+
