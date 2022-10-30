@@ -1,0 +1,36 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#1a5fb4"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    scrollback_lines = 500000
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+  [[TRX]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 20:20
+      maximised = False
+      fullscreen = False
+      size = 960, 1011
+      title = /bin/zsh
+      last_active_term = e309d5c0-e89e-4dcb-beac-62693b31356b
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = default
+      uuid = e309d5c0-e89e-4dcb-beac-62693b31356b
+[plugins]
