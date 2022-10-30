@@ -1,10 +1,11 @@
 [global_config]
+  title_transmit_bg_color = "#22575a"
 [keybindings]
 [profiles]
   [[default]]
-    background_color = "#1a5fb4"
+    background_color = "#002b36"
     cursor_color = "#aaaaaa"
-    foreground_color = "#ffffff"
+    foreground_color = "#c0bfbc"
     scrollback_lines = 500000
     scrollback_infinite = True
 [layouts]
