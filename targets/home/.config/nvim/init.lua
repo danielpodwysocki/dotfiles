@@ -7,7 +7,7 @@ Plug 'github/copilot.vim'
 -- support for all the languages you can think of
 Plug 'sheerun/vim-polyglot'
 -- intellisense
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim'
 
 
 vim.call('plug#end')
