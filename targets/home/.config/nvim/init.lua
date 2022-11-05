@@ -33,3 +33,5 @@ vim.opt.number = true
 -- don't highlight the last search, similar to running :noh
 vim.opt.hlsearch = false
 
+vim.cmd('source ~/.config/nvim/copilot_coc_conflict.vim')
+
