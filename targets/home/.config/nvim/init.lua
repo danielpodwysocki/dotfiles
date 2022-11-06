@@ -20,10 +20,12 @@ packer.init({
 packer.startup(function()
   local use = use
   -- add you plugins here like:
-  -- use 'neovim/nvim-lspconfig'
+  use 'github/copilot.vim'
   use 'tpope/vim-fugitive'
   use 'sheerun/vim-polyglot'
   use {'neoclide/coc.nvim' , branch = 'release'}
+  use 'davidhalter/jedi-vim'
+  use 'deoplete-plugins/deoplete-jedi'
   end
 )
 
