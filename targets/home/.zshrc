@@ -1,10 +1,20 @@
-export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="robbyrussell"
+# plugin manager
+source ~/.antigen.zsh
+antigen use oh-my-zsh
 
-plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
+# Load bundles from the default repo (oh-my-zsh).
+antigen bundle git
+antigen bundle command-not-found
+antigen bundle docker
 
+# plugin installs
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions
+
+# theme
+antigen theme robbyrussell
+antigen apply
 
 # VIM keybindings
 bindkey -v
