@@ -31,3 +31,6 @@ if [[ -e ~/.zshrc_trx ]];
 then
 	source ~/.zshrc_trx;
 fi
+
+export PATH=$PATH:~/go/bin
+export PATH=$PATH:~/.pulumi/bin
