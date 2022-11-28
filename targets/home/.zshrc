@@ -2,6 +2,9 @@
 source ~/.antigen.zsh
 antigen use oh-my-zsh
 
+# don't save commands to history that begin with a space
+setopt HIST_IGNORE_SPACE
+
 
 # Load bundles from the default repo (oh-my-zsh).
 antigen bundle git
