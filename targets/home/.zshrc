@@ -37,3 +37,4 @@ fi
 
 export PATH=$PATH:~/go/bin
 export PATH=$PATH:~/.pulumi/bin
+export PATH=$PATH:~/.local/bin
