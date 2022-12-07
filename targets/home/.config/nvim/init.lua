@@ -34,7 +34,8 @@ packer.startup(function()
   }
   use 'lewis6991/gitsigns.nvim'
   use {'neoclide/coc.nvim' , branch = 'release'}
-  use 'davidhalter/jedi-vim'
+  -- On new install, run :CocInstall coc-pyright
+  --
   use 'deoplete-plugins/deoplete-jedi'
   use {
   'nvim-lualine/lualine.nvim',
