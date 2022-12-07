@@ -42,6 +42,7 @@ packer.startup(function()
   }
   end
 )
+require('gitsigns').setup()
 
 
 -- EDITOR OPTIONS --
