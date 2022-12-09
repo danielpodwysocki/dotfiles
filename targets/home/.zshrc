@@ -2,6 +2,9 @@
 source ~/.antigen.zsh
 antigen use oh-my-zsh
 
+mkdir -p ~/.application-logs
+alias obsidian="nohup flatpak run md.obsidian.Obsidian &> ~/.application-logs/obsidian &"
+
 # don't save commands to history that begin with a space
 setopt HIST_IGNORE_SPACE
 
