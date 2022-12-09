@@ -4,6 +4,7 @@ antigen use oh-my-zsh
 
 mkdir -p ~/.application-logs
 alias obsidian="nohup flatpak run md.obsidian.Obsidian &> ~/.application-logs/obsidian &"
+alias bitwarden="nohup flatpak run com.bitwarden.desktop &> ~/.application-logs/bitwarden &"
 
 # don't save commands to history that begin with a space
 setopt HIST_IGNORE_SPACE
