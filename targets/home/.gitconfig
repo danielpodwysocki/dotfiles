@@ -5,3 +5,5 @@
 	name = Daniel Podwysocki
 	email = 48068081+danielpodwysocki@users.noreply.github.com 
 
+[pull]
+	rebase = false
