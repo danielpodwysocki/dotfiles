@@ -6,6 +6,8 @@ mkdir -p ~/.application-logs
 alias obsidian="nohup flatpak run md.obsidian.Obsidian &> ~/.application-logs/obsidian &"
 alias bitwarden="nohup flatpak run com.bitwarden.desktop &> ~/.application-logs/bitwarden &"
 
+alias kc="kubectl"
+
 # don't save commands to history that begin with a space
 setopt HIST_IGNORE_SPACE
 
@@ -14,7 +16,7 @@ setopt HIST_IGNORE_SPACE
 antigen bundle git
 antigen bundle command-not-found
 antigen bundle docker
-antigen bundle kubectl
+#antigen bundle kubectl
 
 # plugin installs
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -49,3 +51,8 @@ fpath=(/opt/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/contrib/zsh $fpath)
 compinit
 # <<<<  Vagrant command completion (end)
 export EDITOR=nvim
+
+eval $(thefuck --alias)
+source <(kubectl completion zsh)
+
+export TERM=xterm-256color
