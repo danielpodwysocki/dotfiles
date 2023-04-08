@@ -56,3 +56,4 @@ eval $(thefuck --alias)
 source <(kubectl completion zsh)
 
 export TERM=xterm-256color
+export ANSIBLE_VAULT_PASSWORD_FILE=~/.ansible-vault-pass
