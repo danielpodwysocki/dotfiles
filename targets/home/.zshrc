@@ -21,6 +21,7 @@ antigen bundle docker
 # plugin installs
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle sawdashota/go-task-completions
 
 # theme
 antigen theme robbyrussell
@@ -57,3 +58,6 @@ source <(kubectl completion zsh)
 
 export TERM=xterm-256color
 export ANSIBLE_VAULT_PASSWORD_FILE=~/.ansible-vault-pass
+
+
+alias exportenv='export $( grep -vE "^(#.*|\s*)$" .env )'
