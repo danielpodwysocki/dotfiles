@@ -53,7 +53,6 @@ compinit
 # <<<<  Vagrant command completion (end)
 export EDITOR=nvim
 
-eval $(thefuck --alias)
 source <(kubectl completion zsh)
 
 export TERM=xterm-256color
