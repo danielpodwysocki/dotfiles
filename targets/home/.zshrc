@@ -46,6 +46,7 @@ fi
 export PATH=$PATH:~/go/bin
 export PATH=$PATH:~/.pulumi/bin
 export PATH=$PATH:~/.local/bin
+export PATH=$PATH:/opt/visual-studio-code/bin
 
 # >>>> Vagrant command completion (start)
 fpath=(/opt/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/contrib/zsh $fpath)
