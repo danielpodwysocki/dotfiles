@@ -1,6 +1,8 @@
 [submodule "targets/home/.oh-my-zsh"]
 	path = targets/home/.oh-my-zsh
 	url = https://github.com/ohmyzsh/ohmyzsh.git
+	branch=master
+	
 [submodule "targets/home/.config/nvim"]
 	path = targets/home/.config/nvim
 	url = https://github.com/AstroNvim/AstroNvim
