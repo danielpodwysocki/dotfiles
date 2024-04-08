@@ -51,7 +51,7 @@ export PATH=$PATH:~/.local/bin
 fpath=(/opt/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/contrib/zsh $fpath)
 compinit
 # <<<<  Vagrant command completion (end)
-export EDITOR=nvim
+export EDITOR=vim
 
 source <(kubectl completion zsh)
 
