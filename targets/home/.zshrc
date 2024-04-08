@@ -61,3 +61,6 @@ export ANSIBLE_VAULT_PASSWORD_FILE=~/.ansible-vault-pass
 
 
 alias exportenv='export $( grep -vE "^(#.*|\s*)$" .env )'
+
+eval "$(direnv hook zsh)"
+
