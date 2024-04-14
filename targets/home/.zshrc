@@ -15,8 +15,7 @@ setopt HIST_IGNORE_SPACE
 # Load bundles from the default repo (oh-my-zsh).
 antigen bundle git
 antigen bundle command-not-found
-antigen bundle docker
-#antigen bundle kubectl
+antigen bundle kubectl
 
 # plugin installs
 antigen bundle zsh-users/zsh-syntax-highlighting
