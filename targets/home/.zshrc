@@ -61,3 +61,8 @@ export ANSIBLE_VAULT_PASSWORD_FILE=~/.ansible-vault-pass
 
 
 alias exportenv='export $( grep -vE "^(#.*|\s*)$" .env )'
+
+if [ -f /etc/arch-release ]; then
+	export BROWSER=/usr/bin/google-chrome-stable
+fi
+
