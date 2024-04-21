@@ -52,15 +52,14 @@ export PATH=$PATH:/opt/visual-studio-code/bin
 fpath=(/opt/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/contrib/zsh $fpath)
 compinit
 # <<<<  Vagrant command completion (end)
-export EDITOR=vim
+export EDITOR=nvim
 
 source <(kubectl completion zsh)
 
 export TERM=xterm-256color
-export ANSIBLE_VAULT_PASSWORD_FILE=~/.ansible-vault-pass
-
 
 alias exportenv='export $( grep -vE "^(#.*|\s*)$" .env )'
 
 eval "$(direnv hook zsh)"
+source <(helm completion zsh)
 
