@@ -15,8 +15,7 @@ setopt HIST_IGNORE_SPACE
 # Load bundles from the default repo (oh-my-zsh).
 antigen bundle git
 antigen bundle command-not-found
-antigen bundle docker
-#antigen bundle kubectl
+antigen bundle kubectl
 
 # plugin installs
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -60,6 +59,9 @@ export TERM=xterm-256color
 
 alias exportenv='export $( grep -vE "^(#.*|\s*)$" .env )'
 
+if [ -f /etc/arch-release ]; then
+	export BROWSER=/usr/bin/google-chrome-stable
+fi
 eval "$(direnv hook zsh)"
 source <(helm completion zsh)
 
