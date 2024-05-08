@@ -65,3 +65,5 @@ fi
 eval "$(direnv hook zsh)"
 source <(helm completion zsh)
 
+
+eval "$(devbox global shellenv)"

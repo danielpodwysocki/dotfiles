@@ -1,0 +1,69 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "pre-commit@latest": {
+      "last_modified": "2024-04-27T15:12:38-04:00",
+      "resolved": "github:NixOS/nixpkgs/2b1f64b358f2cab62617f26b3870fd0ee375d848#pre-commit",
+      "source": "devbox-search",
+      "version": "3.7.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/17qf8srf152m3pqg544bs6vs3mq6p2jg-pre-commit-3.7.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/b6y24scz61gj279r2cfz70kxbap0qdbg-pre-commit-3.7.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/17qf8srf152m3pqg544bs6vs3mq6p2jg-pre-commit-3.7.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g0jl2wzkr8qlqwv9xnjdyv8makl96hjz-pre-commit-3.7.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/nvxrb7i01qz4zm5kn377db05avvwbsf8-pre-commit-3.7.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/g0jl2wzkr8qlqwv9xnjdyv8makl96hjz-pre-commit-3.7.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kg1208c3dkkicj7ds3j46xjqisd8piyq-pre-commit-3.7.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/37r0h0dsby70m5nv7pn64ywxykk6cgb1-pre-commit-3.7.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/kg1208c3dkkicj7ds3j46xjqisd8piyq-pre-commit-3.7.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/86xlgibvlyfag4hmdclkvgk0qkmcpp25-pre-commit-3.7.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/7ap1fmxdwxnycyfn4rfx0qxx8f40idix-pre-commit-3.7.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/86xlgibvlyfag4hmdclkvgk0qkmcpp25-pre-commit-3.7.0"
+        }
+      }
+    }
+  }
+}
