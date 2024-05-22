@@ -50,13 +50,11 @@ export PATH=$PATH:/opt/visual-studio-code/bin
 fpath=(/opt/vagrant/embedded/gems/2.3.2/gems/vagrant-2.3.2/contrib/zsh $fpath)
 compinit
 # <<<<  Vagrant command completion (end)
-export EDITOR=vim
+export EDITOR=nvim
 
 source <(kubectl completion zsh)
 
 export TERM=xterm-256color
-export ANSIBLE_VAULT_PASSWORD_FILE=~/.ansible-vault-pass
-
 
 alias exportenv='export $( grep -vE "^(#.*|\s*)$" .env )'
 
@@ -64,6 +62,8 @@ if [ -f /etc/arch-release ]; then
 	export BROWSER=/usr/bin/google-chrome-stable
 fi
 eval "$(direnv hook zsh)"
+source <(helm completion zsh)
 
 
 if [ -e /home/daniel/.nix-profile/etc/profile.d/nix.sh ]; then . /home/daniel/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+eval "$(devbox global shellenv)"
