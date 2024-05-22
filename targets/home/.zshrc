@@ -20,7 +20,6 @@ antigen bundle kubectl
 # plugin installs
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle sawdashota/go-task-completions
 
 # theme
 antigen theme robbyrussell
@@ -66,3 +65,5 @@ if [ -f /etc/arch-release ]; then
 fi
 eval "$(direnv hook zsh)"
 
+
+if [ -e /home/daniel/.nix-profile/etc/profile.d/nix.sh ]; then . /home/daniel/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
