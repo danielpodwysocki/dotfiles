@@ -67,3 +67,5 @@ source <(helm completion zsh)
 
 if [ -e /home/daniel/.nix-profile/etc/profile.d/nix.sh ]; then . /home/daniel/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 eval "$(devbox global shellenv)"
+
+export GOPATH=$HOME/go
